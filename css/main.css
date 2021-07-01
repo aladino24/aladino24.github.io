@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap");
+body {
+  font-family: 'Acme', sans-serif;
+  background-image: url(../img/bg1.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 65vmax;
+  position: absolute;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-size: 112vmax;
+  }
+}
+
+.nav-box .custom-nav .navbar-brand img {
+  width: 225px;
+  height: 65px;
+  margin-top: -5px;
+}
+
+.nav-box .custom-nav #navbarNav .navbar-nav {
+  margin-right: 10%;
+}
+
+.nav-box .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #000000;
+  font-weight: 500;
+  margin-left: 2.1em;
+  font-size: 19px;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.nav-box .custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #075e9c;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-box .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    margin-right: 2em;
+  }
+}
+
+.nav-box .custom-nav #navbarNav .navbar-nav .nav-item .login-button {
+  background-color: #097BCD;
+  color: #FFFFFF;
+  border-radius: 0.5em;
+  height: 70%;
+  line-height: 70%;
+  margin-top: 6px;
+  border: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.nav-box .custom-nav #navbarNav .navbar-nav .nav-item .login-button:hover {
+  color: black;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-box .custom-nav #navbarNav .navbar-nav .nav-item .login-button {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-box .custom-nav #navbarNav {
+    background-color: aliceblue;
+  }
+}
+
+.custom-section {
+  margin-top: 13em;
+  margin-left: 1em;
+}
+
+.custom-section h2 {
+  font-family: 'Acme', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  white-space: nowrap;
+  color: #097BCD;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section h2 {
+    white-space: nowrap;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.custom-section p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2em;
+}
+
+.custom-section a {
+  display: inline-block;
+  color: white;
+  background-color: #097BCD;
+  border-radius: 2em;
+  padding: 0.45em 1.6em;
+  border: 1px solid #097BCD;
+  text-decoration: none;
+  margin-top: 1em;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.custom-section a:hover {
+  color: #097BCD;
+  border: 1px solid #097BCD;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section {
+    margin-top: 650px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
